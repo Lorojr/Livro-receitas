@@ -1,0 +1,136 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO/Jg6x5Ck7kbw8nCu/ffmJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lorojr/Livro-receitas/blob/master/HTML/CSS-CODEPARK\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "<!DOCTYPE html>\n",
+        "<html lang=\"en\">\n",
+        "<head>\n",
+        "    <meta charset=\"UTF-8\">\n",
+        "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n",
+        "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n",
+        "    <title>Document</title>\n",
+        "</head>\n",
+        "<body>\n",
+        "    <header>\n",
+        "        <img src=\"./Europa Continente.jpg\"/><br>\n",
+        "        <p>A Europa</p>\n",
+        "        <img rigth src=\"./coliseu de roma.jpg\"/>\n",
+        "    </header>\n",
+        "<main>\n",
+        "    <h1>Coliseu de Roma</h1>\n",
+        "    <section>\n",
+        "        <p>\n",
+        "            O principal ponto turístico da Itália é sem dúvida o Coliseu de Roma. É um dos monumentos mais famosos do mundo e atrai nada menos do que 4 milhões de turistas todos os anos. Sua construção se iniciou no ano de 72 d.C. e durante décadas, serviu de palco para gladiadores que lutavam entre si ou com animais para um público de mais de 70 mil romanos.\n",
+        "\n",
+        "A visita às ruínas do Coliseu é um passeio obrigatório a todos os turistas que visitam Roma e a Itália, não somente por sua grandeza, mas por sua história. Como a maioria dos brasileiros que viajam para a Itália, passam por Roma, acabam conhecendo o grande Coliseu\n",
+        "\n",
+        "        </p>\n",
+        "    </section>\n",
+        "    <section>\n",
+        "        <h3>Lindas Paisagens</h3>\n",
+        "        <ul>\n",
+        "            <li>França: Torre Eiffel em Paris</li>\n",
+        "            <img src=\"./torre-eiffel-prefiro-viajar.jpg\"/>\n",
+        "            <li>Espanha: Sagrada Família em Barcelona</li>\n",
+        "            <img src=\"./barcelona-prefiro-viajar.jpg\"/>\n",
+        "            <li>Inglaterra: Torre Big Ben de Londres</li>\n",
+        "            <img src=\"./big-ben-londres-prefiro-viajar.jpg\" alt=\"\"><br>\n",
+        "            <a href=\"./pagina_2.html\">Outros lugares magnificos para você conhecer</a>\n",
+        "        </ul>\n",
+        "    </section>\n",
+        "</main>\n",
+        "<footer>\n",
+        "    <h3>Siga a gente</h3>\n",
+        "    <ul>\n",
+        "        <li>facebook.com/prefiroviajar</li>\n",
+        "        <li>instagran.com/prefiroviajar</li>\n",
+        "        <li>twitter.com/prefiroviajar</li>\n",
+        "    </ul>\n",
+        "</footer>\n",
+        "</body>\n",
+        "</html>"
+      ],
+      "metadata": {
+        "id": "Cer-4mEJHqvD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "<!DOCTYPE html>\n",
+        "<html lang=\"en\">\n",
+        "<head>\n",
+        "    <meta charset=\"UTF-8\">\n",
+        "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n",
+        "    <meta name=\"viewport\" content=\"width=<device-width>, initial-scale=1.0\">\n",
+        "    <title>Document</title>\n",
+        "</head>\n",
+        "<body>\n",
+        "    <header>\n",
+        "        <nav>\n",
+        "            <a href=\"index.html\">Voltar a pagina inicial</a>\n",
+        "        </nav>\n",
+        "        <img src=\"./torre-de-belem-prefiro-viajar.jpg\"/>\n",
+        "    </header>\n",
+        "    <main>\n",
+        "        <h1>Venha conhecer Portugal</h1>\n",
+        "        <section>\n",
+        "            <p>A Torre de Belém fica em Lisboa e é considerada o principal ponto turístico de Portugal e um dos mais visitados da Europa. A Torre de Belém em Lisboa foi construída na era de ouro de Portugal, época das navegações, com o objetivo de proteger a cidade de invasores.\n",
+        "               Contrate agora o seu ingresso para Torre de Belém e não enfrente filas\n",
+        "               O local, ao longo dos anos, acabou sendo serventia para diversas funções governamentais como prisão, aduaneira, telégrafo e até mesmo farol. Em 1983, recebeu o título de Patrimônio da Humanidade pela UNESCO e hoje, é um dos pontos turísticos mais visitados de Lisboa e de Portugal.</p>\n",
+        "        </section>\n",
+        "    </main>\n",
+        "</body>\n",
+        "</html>"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        },
+        "id": "yt0NVnAGH6f-",
+        "outputId": "457721d0-f5cf-4631-e738-874226da8f6c"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-7784adc64914>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    <!DOCTYPE html>\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
